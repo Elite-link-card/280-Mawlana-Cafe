@@ -2676,7 +2676,9 @@ to {top: -20px;}
 .fa-envelope {left: 6px;
   top: 10px;
 font-size: 1rem;}
-
+.fa-book-open{
+  left: 5px;
+}
 .fa-facebook,
 .fa-link {
   left: 16px;
@@ -2689,7 +2691,7 @@ font-size: 1rem;}
 
 .fa-instagram,
 .fa-whatsapp {
-  left: 10px;
+  left: 9px;
   top: 13px;
 }
 
@@ -2745,7 +2747,7 @@ to {top: 0px;}
   background: #17A9FD ;
 }
 #manu-icon {
-  background: #212F54 ;
+  background: #000000 ;
 }
 .fa-cookie,
 .fa-martini-glass-citrus,
