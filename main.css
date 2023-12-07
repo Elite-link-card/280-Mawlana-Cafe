@@ -1034,8 +1034,8 @@ html {
   justify-content: top;
   position: relative;
   border-radius: 12px;
-  background: #ffffff00;
-background-image: url(yyy.png);
+  background: #000000;
+  background-image: url(bass3.png);
 }
 @keyframes  url(Untitled\ design\ \(1\).png){
   max-width: 100%;
@@ -2334,7 +2334,7 @@ fieldset {
 
 .left-picture {
   display: block;
-  background: #00000000;
+  background: #000000fb;
   transform-origin: center;
   will-change: transform;
   justify-content: center;
@@ -2342,7 +2342,7 @@ fieldset {
 
   z-index: 1;
   left: 5%;
-  transform: translateX(-3%) translateY(5%);
+  transform: translateX(0px) translateY(0px);
   position:relative;
   animation-name:PHOTO;
   animation-duration: 1.5s;
@@ -2354,12 +2354,16 @@ to {top: 75px;}
 }
 
 .left-picture[data-image-type="profile"] {
- width: 95%;
-  padding-top:95%;
-  border-radius: 90%;
+ width: 90%;
+  padding-top: 90%;
+  border-radius: 60%;
 }
 
-
+.left-picture[data-image-type="logo"] {
+  width: 35.5555555556%;
+  padding-top: 20%;
+  border-radius: 5px;
+}
 
 .left-picture .left-picture-img {
   position: absolute;
@@ -2368,14 +2372,20 @@ to {top: 75px;}
   top: 0;
   left: 0;
   object-fit: cover;
-  object-position:center center;
+  object-position: top center;
 }
 
+.left-picture[data-image-type="logo"] .left-picture-img {
+  border-radius: 5px;
+}
 
+.left-picture[data-image-type="profile"] .left-picture-img {
+  border-radius: 50%;
+}
 
 .left-picture[data-image-type="profile"]::before {
   content: "";
-  background-color: #cfbea900;
+  background-color: #114062;
   width: calc(100% + 2 * 3px);
   height: calc(100% + 2 * 3px);
   position: absolute;
@@ -2394,6 +2404,7 @@ to {top: 75px;}
   bottom: -3px;
   border-radius: 7px;
 }
+
 .top-picture  {
  position: absolute;
 width: 50px;
@@ -2902,7 +2913,7 @@ to {top: 0px;} }
 
   .links-and-notes
 {transform: translateY(20%);
-  background-color: #212f5469;
+  background-color: #5d5d5d2f;
   border-radius: 5%;
 max-width: 95%;
 margin: 15px;
